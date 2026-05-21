@@ -1,0 +1,26 @@
+.searchInput {
+  margin-bottom: 16px;
+  max-width: 360px;
+}
+
+.table {
+  margin-bottom: 16px;
+}
+
+.paginationWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skeletonInput {
+  width: 80%;
+  min-width: 60px;
+}
+
+.rowPointer {
+  cursor: pointer;
+}
+
+.rowDefault {
+  cursor: default;
+}

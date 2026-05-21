@@ -1,0 +1,10 @@
+.alert {
+  margin-bottom: 16px;
+}
+
+.endpoint {
+  display: block;
+  margin-top: 4px;
+  opacity: 0.6;
+  font-size: 12px;
+}

@@ -1,0 +1,25 @@
+.layout {
+  min-height: 100vh;
+  background: var(--color-page-bg);
+}
+
+.header {
+  background: var(--color-header-bg);
+  display: flex;
+  align-items: center;
+  padding: 0 32px;
+}
+
+.headerTitle {
+  /* !important needed: Ant Design's CSS-in-JS colorText token otherwise wins */
+  color: var(--color-yellow) !important;
+  margin: 0 !important;
+  letter-spacing: 1px;
+}
+
+.content {
+  padding: 32px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
